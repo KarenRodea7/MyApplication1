@@ -69,6 +69,7 @@
                 android:id="@+id/Pass"
                 android:hint="Escribe tu contraseña"
                 android:textStyle="normal"
+                android:inputType="textPassword"
                 android:textColor="#7CFFFFFF"
                 android:textColorHint="#7CFFFFFF"/>
         </LinearLayout>

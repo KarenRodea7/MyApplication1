@@ -6,5 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Galeria">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#000"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp">
+        
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/Images"/>
+
+    </androidx.cardview.widget.CardView>
+
 
 </RelativeLayout>
