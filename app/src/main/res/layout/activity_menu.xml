@@ -36,6 +36,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/Figuras"
             android:backgroundTint="#381995"
             android:text="Iniciar"/>
         <ImageView
@@ -54,6 +55,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/Galeria"
             android:backgroundTint="#381995"
             android:text="Iniciar"/>
         <ImageView
@@ -70,12 +72,27 @@
             android:textColor="#ffffff"
             android:textSize="18dp"
             android:layout_marginBottom="5dp"/>
-        <Button
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#381995"
-            android:text="Iniciar"/>
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Regresar"
+                android:text="Regresar"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Quiz"
+                android:backgroundTint="#381995"
+                android:text="Iniciar"
+                android:layout_marginRight="150dp"/>
 
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>
