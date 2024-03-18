@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreaVolumen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F162D2"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="650dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Áreas y Volúmenes"
+                android:textSize="30dp"
+                android:textColor="#CA0FF4"
+                android:layout_marginBottom="30dp"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elige una figura"
+                android:textStyle="bold"
+                android:textColor="#7009B1"
+                android:textSize="25sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110sp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/descarga__1_"
+                    android:layout_marginLeft="15sp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/images__1_"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp">
+                <TextView
+                    android:layout_width="70sp"
+                    android:layout_height="70sp"
+                    android:background="#4527A0"
+                    android:layout_marginRight="80dp"/>
+                <TextView
+                    android:layout_width="110sp"
+                    android:layout_height="70sp"
+                    android:background="#AD1457"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

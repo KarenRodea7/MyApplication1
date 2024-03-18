@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:background="#081CAC"
+            android:textStyle="bold"
+            android:text=" Elige una aplicación "
+            android:layout_marginBottom="20dp"/>
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="110sp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/images__61_"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Áreas y volumenes"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#381995"
+            android:text="Iniciar"/>
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="110sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/images__62_"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galería"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#381995"
+            android:text="Iniciar"/>
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="110sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/images__63_"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                              Quiz:
+            \n¿Qué tanto sabes de las constelaciones?"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#381995"
+            android:text="Iniciar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
