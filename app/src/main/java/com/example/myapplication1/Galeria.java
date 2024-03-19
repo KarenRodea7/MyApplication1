@@ -4,30 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.denzcoskun.imageslider.ImageSlider;
-import com.denzcoskun.imageslider.constants.ScaleTypes;
-import com.denzcoskun.imageslider.interfaces.ItemClickListener;
-import com.denzcoskun.imageslider.models.SlideModel;
+import org.imaginativeworld.whynotimagecarousel.ImageCarousel;
+import org.imaginativeworld.whynotimagecarousel.model.CarouselItem;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Galeria extends AppCompatActivity {
+
+    List<CarouselItem> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_galeria);
 
-        ImageSlider imageSlider = findViewById(R.id.Images);
-        ArrayList<SlideModel> slideModels = new ArrayList<>();
+        ImageCarousel carousel = findViewById(R.id.carousel);
+        carousel.registerLifecycle(getLifecycle());
 
-        slideModels.add(new SlideModel(R.drawable.images__63_, "Cielo" ,ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.images__61_, "Figuras" ,ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.images__62_, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.wp8968806, ScaleTypes.FIT));
-
-        imageSlider.setImageList(slideModels, ScaleTypes.FIT);
+        list.add(new CarouselItem(R.drawable.canis_major, "Constelación Canis Maior (Fuente: Stellarium, Free Art License)"));
+        list.add(new CarouselItem(R.drawable.corvus,"Constelación Corvus (Fuente: Stellarium, Free Art License)"));
 
 
+        carousel.setData(list);
         }
 }

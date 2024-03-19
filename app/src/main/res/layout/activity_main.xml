@@ -99,7 +99,7 @@
                 android:layout_width="370dp"
                 android:layout_height="wrap_content"
                 android:paddingLeft="320dp"
-                android:text="V.1.2"
+                android:text="V.2.1"
                 android:textSize="17dp"
                 android:textColor="#ffffff"/>
         </LinearLayout>
