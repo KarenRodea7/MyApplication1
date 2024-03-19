@@ -19,10 +19,103 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bienvenido"
+            android:text="¡Bienvenido al Quiz!\n¿Cuánto sabes del Universo?"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
             android:textColor="#ffffff"
-            android:textSize="40dp"/>
-
-
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Total de preguntas: "
+            android:id="@+id/total"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            android:text="Pregunta: "
+            android:id="@+id/Preg"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resp A"
+                android:id="@+id/R1"
+                android:backgroundTint="#ffffff"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resp B"
+                android:id="@+id/R2"
+                android:backgroundTint="#ffffff"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resp C"
+                android:id="@+id/R3"
+                android:backgroundTint="#ffffff"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resp D"
+                android:id="@+id/R4"
+                android:backgroundTint="#ffffff"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cont"
+                android:text="Continuar"
+                android:backgroundTint="#00695C"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SalirJuego"
+                android:backgroundTint="#6A1B9A"
+                android:textColor="#ffffff"
+                android:text="Salir"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MenuJuego"
+                android:layout_marginLeft="100dp"
+                android:backgroundTint="#6A1B9A"
+                android:textColor="#ffffff"
+                android:text="Menú"/>
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
