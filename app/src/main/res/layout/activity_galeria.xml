@@ -18,6 +18,7 @@
         android:layout_marginTop="50dp"
         app:showCaption="true"
         app:showNavigationButtons="true"
+        app:infiniteCarousel="false"
         app:captionTextSize="20dp" />
 
     <LinearLayout
@@ -27,13 +28,17 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/SalirGal"
             android:backgroundTint="#051583"
+            android:textSize="18dp"
             android:text="Salir"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/MenuGal"
             android:layout_marginLeft="100dp"
             android:backgroundTint="#051583"
+            android:textSize="18dp"
             android:text="Menú"/>
     </LinearLayout>
 

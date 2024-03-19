@@ -67,8 +67,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="                              Quiz:
-            \n¿Qué tanto sabes de las constelaciones?"
+            android:textAlignment="center"
+            android:text="Quiz:\n¿Qué tanto sabes del Universo?"
             android:textColor="#ffffff"
             android:textSize="18dp"
             android:layout_marginBottom="5dp"/>
