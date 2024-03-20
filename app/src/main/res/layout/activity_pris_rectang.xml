@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/LadoPR"
             android:inputType="numberDecimal"
-            android:text="Lado"
+            android:hint="Lado"
             android:textSize="20dp"/>
         <EditText
             android:layout_width="100dp"
@@ -38,14 +38,14 @@
             android:id="@+id/BasePR"
             android:layout_marginTop="10dp"
             android:inputType="numberDecimal"
-            android:text="Base"
+            android:hint="Base"
             android:textSize="20dp"/>
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:id="@+id/AltPR"
             android:inputType="numberDecimal"
-            android:text="Altura"
+            android:hint="Altura"
             android:textSize="20dp"/>
         <Button
             android:layout_width="wrap_content"
@@ -61,7 +61,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/ResPR"
             android:layout_marginTop="20dp"
-            android:text="Resultado: "
+            android:textAlignment="center"
+            android:text="Área: "
             android:textSize="20dp" />
         <LinearLayout
             android:layout_width="wrap_content"

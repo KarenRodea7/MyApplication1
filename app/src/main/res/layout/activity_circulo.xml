@@ -31,7 +31,7 @@
             android:id="@+id/Radio"
             android:layout_marginTop="20dp"
             android:inputType="numberDecimal"
-            android:text="Radio"
+            android:hint="Radio"
             android:textSize="20dp"/>
         <Button
             android:layout_width="wrap_content"
@@ -47,7 +47,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/ResCir"
             android:layout_marginTop="40dp"
-            android:text="Resultado: "
+            android:textAlignment="center"
+            android:text="Área: "
             android:textSize="20dp"
             android:layout_marginBottom="40dp"/>
         <LinearLayout

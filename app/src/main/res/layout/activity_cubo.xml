@@ -31,7 +31,7 @@
             android:id="@+id/lado"
             android:layout_marginTop="20dp"
             android:inputType="numberDecimal"
-            android:text="Lado"
+            android:hint="Lado"
             android:textSize="20dp"/>
         <Button
             android:layout_width="wrap_content"
@@ -47,7 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:id="@+id/ResCu"
-            android:text="Resultado: "
+            android:text="Área: "
+            android:textAlignment="center"
             android:textSize="20dp"
             android:layout_marginBottom="40dp"/>
         <LinearLayout
