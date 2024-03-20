@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¡Bienvenido al Quiz!\n¿Cuánto sabes del Universo?"
+            android:text="¡Bienvenido al Quiz!\n¿Cuánto sabes del espacio exterior?"
             android:textAlignment="center"
             android:layout_marginTop="20dp"
             android:textColor="#ffffff"
@@ -35,10 +35,11 @@
             android:textColor="#ffffff"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="50dp"
             android:text="Pregunta: "
+            android:textAlignment="center"
             android:id="@+id/Preg"
             android:textSize="20dp"
             android:textColor="#ffffff"/>
