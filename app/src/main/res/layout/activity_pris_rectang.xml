@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Circulo">
+    tools:context=".PrisRectang">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,34 +18,43 @@
             android:textSize="25dp"
             android:textColor="#283593"
             android:textStyle="bold"
-            android:text="Calcular el área de un círculo"/>
+            android:textAlignment="center"
+            android:text="Calcular el área de un prisma rectangular"/>
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/circulo"/>
+            android:src="@drawable/prect"/>
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Radio"
+            android:layout_marginTop="10dp"
+            android:text="Base"
             android:textSize="20dp"/>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Altura"
+            android:textSize="20dp"/>
+        <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Altura"
+        android:textSize="20dp"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Calcular"
             android:textSize="18dp"
-            android:layout_marginTop="35sp"
+            android:layout_marginTop="30sp"
             android:backgroundTint="#92228F7D"
             android:textColor="#000"/>
         <TextView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:text="Resultado: "
-            android:textSize="20dp"
-            android:layout_marginBottom="40dp"/>
+            android:textSize="20dp" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,19 +62,19 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/SalirCir"
+                android:id="@+id/SalirPRec"
                 android:backgroundTint="#051583"
                 android:textSize="18dp"
                 android:text="Salir"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/MenuCir"
+                android:id="@+id/MenuPRec"
                 android:layout_marginLeft="100dp"
                 android:backgroundTint="#051583"
                 android:textSize="18dp"
                 android:text="Menú"/>
         </LinearLayout>
-
     </LinearLayout>
+
 </RelativeLayout>

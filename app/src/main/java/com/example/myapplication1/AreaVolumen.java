@@ -36,6 +36,22 @@ public class AreaVolumen extends AppCompatActivity {
             }
         });
 
+        PRec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), PrisRectang.class);
+                startActivity(i);
+            }
+        });
+
+        Cubo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), com.example.myapplication1.Cubo.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 }

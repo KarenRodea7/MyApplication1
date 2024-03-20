@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Circulo">
+    tools:context=".Cubo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,18 +18,18 @@
             android:textSize="25dp"
             android:textColor="#283593"
             android:textStyle="bold"
-            android:text="Calcular el área de un círculo"/>
+            android:text="Calcular el área de un cubo"/>
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:src="@drawable/circulo"/>
+            android:src="@drawable/cubob"/>
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Radio"
+            android:text="Lado"
             android:textSize="20dp"/>
         <Button
             android:layout_width="wrap_content"
@@ -53,14 +53,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/SalirCir"
+                android:id="@+id/SalirCubo"
                 android:backgroundTint="#051583"
                 android:textSize="18dp"
                 android:text="Salir"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/MenuCir"
+                android:id="@+id/MenuCubo"
                 android:layout_marginLeft="100dp"
                 android:backgroundTint="#051583"
                 android:textSize="18dp"
@@ -68,4 +68,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </RelativeLayout>

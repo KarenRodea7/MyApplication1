@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication1"
         tools:targetApi="31">
         <activity
+            android:name=".Cubo"
+            android:exported="false" />
+        <activity
+            android:name=".PrisRectang"
+            android:exported="false" />
+        <activity
             android:name=".Triangulo"
             android:exported="false" />
         <activity

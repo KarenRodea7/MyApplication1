@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Triangulo extends AppCompatActivity {
+public class PrisRectang extends AppCompatActivity {
 
     Button salir, regresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_triangulo);
+        setContentView(R.layout.activity_pris_rectang);
 
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
