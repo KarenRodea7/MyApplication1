@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class Juego extends AppCompatActivity implements View.OnClickListener {
 
     TextView Total, Pregunta;
-    Button R1, R2, R3, R4, Cont, SalirJuego, MenuJuego;
+    Button R1, R2, R3, R4, Cont;
     Button menu, salir;
 
     int puntaje = 0;
@@ -38,38 +38,20 @@ public class Juego extends AppCompatActivity implements View.OnClickListener {
         Cont = findViewById(R.id.Cont);
 
 
-        /*MenuJuego.setOnClickListener(new View.OnClickListener()
-
-        {
-            @Override
-            public void onClick (View view){
-                Intent intent = new Intent(getApplicationContext(), Menu.class);
-                startActivity(intent);
-            }
-        });
-        SalirJuego.setOnClickListener(new View.OnClickListener()
-
-        {
-            @Override
-            public void onClick (View view){
-                Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.addCategory(Intent.CATEGORY_HOME);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-            }
-        });*/
-
         R1.setOnClickListener(this);
         R2.setOnClickListener(this);
         R3.setOnClickListener(this);
         R4.setOnClickListener(this);
         Cont.setOnClickListener(this);
+        menu.setOnClickListener(this);
+        salir.setOnClickListener(this);
 
         Total.setText("Total de preguntas: " + total);
 
         siguiente();
 
     }
+
 
     @Override
     public void onClick(View v) {
@@ -85,13 +67,24 @@ public class Juego extends AppCompatActivity implements View.OnClickListener {
             }
             indice++;
             siguiente();
-
-
         } else {
             //choices button clicked
             seleccionado = click.getText().toString();
             click.setBackgroundColor(Color.MAGENTA);
         }
+
+        if (click.getId()==R.id.MenuJuego) {
+            Intent intent = new Intent(getApplicationContext(), Menu.class);
+            startActivity(intent);
+        }
+
+        if (click.getId()==R.id.SalirJuego) {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        }
+
 
     }
 
