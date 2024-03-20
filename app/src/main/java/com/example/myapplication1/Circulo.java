@@ -15,6 +15,9 @@ public class Circulo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circulo);
 
+        salir = (Button)findViewById(R.id.SalirCir);
+        regresar =(Button)findViewById(R.id.MenuCir);
+
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

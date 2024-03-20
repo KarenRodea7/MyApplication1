@@ -16,6 +16,9 @@ public class Cubo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cubo);
 
+        salir = (Button)findViewById(R.id.SalirCubo);
+        regresar =(Button)findViewById(R.id.MenuCubo);
+
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

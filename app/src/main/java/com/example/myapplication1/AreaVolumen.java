@@ -15,10 +15,10 @@ public class AreaVolumen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_area_volumen);
 
-        Circ = (Button) findViewById(R.id.Circulo);
-        Trian = (Button) findViewById(R.id.Triangulo);
-        PRec = (Button) findViewById(R.id.PrismaR);
-        Cubo = (Button) findViewById(R.id.Cubo);
+        Circ = (Button)findViewById(R.id.Circulo);
+        Trian = (Button)findViewById(R.id.Triangulo);
+        PRec = (Button)findViewById(R.id.PrismaR);
+        Cubo = (Button)findViewById(R.id.Cubo);
 
         Circ.setOnClickListener(new View.OnClickListener() {
             @Override

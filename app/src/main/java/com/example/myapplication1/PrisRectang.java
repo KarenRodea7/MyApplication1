@@ -16,6 +16,9 @@ public class PrisRectang extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pris_rectang);
 
+        salir = (Button)findViewById(R.id.SalirPRec);
+        regresar =(Button)findViewById(R.id.MenuPRec);
+
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,5 +33,8 @@ public class PrisRectang extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
     }
 }

@@ -16,6 +16,8 @@ public class Triangulo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triangulo);
 
+        salir = (Button)findViewById(R.id.SalirTri);
+        regresar =(Button)findViewById(R.id.MenuTri);
         regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
